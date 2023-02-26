@@ -23,6 +23,8 @@
     <PackageVersion Include="CommunityToolkit.Mvvm" Version="$(CommunityToolkitVersion)" />
     <PackageVersion Include="CommunityToolkit.WinUI.UI" Version="$(CommunityToolkitWinUINuGetVersion)" />
     <PackageVersion Include="CommunityToolkit.WinUI.UI.Animations" Version="$(CommunityToolkitWinUINuGetVersion)" />
+    <PackageVersion Include="CommunityToolkit.WinUI.UI.Controls" Version="$(CommunityToolkitWinUINuGetVersion)" />
+    <PackageVersion Include="CommunityToolkit.WinUI.UI.Media" Version="$(CommunityToolkitWinUINuGetVersion)" />
     <PackageVersion Include="coverlet.collector" Version="3.1.2" />
     <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.4.0" />
     <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" />
@@ -51,11 +53,13 @@
     <PackageVersion Include="System.Runtime.InteropServices.WindowsRuntime" Version="4.3.0" />
     <PackageVersion Include="Uno.CommunityToolkit.WinUI.UI" Version="$(UnoCommunityToolkitWinUINuGetVersion)" />
     <PackageVersion Include="Uno.CommunityToolkit.WinUI.UI.Animations" Version="$(UnoCommunityToolkitWinUINuGetVersion)" />
+    <PackageVersion Include="Uno.CommunityToolkit.WinUI.UI.Controls" Version="$(UnoCommunityToolkitWinUINuGetVersion)" />
+    <PackageVersion Include="Uno.CommunityToolkit.WinUI.UI.Media" Version="$(UnoCommunityToolkitWinUINuGetVersion)" />
     <PackageVersion Include="Uno.Core.Extensions.Logging" Version="4.0.1" />
     <PackageVersion Include="Uno.Core.Extensions.Logging.Singleton" Version="4.0.1" />
     <PackageVersion Include="Uno.Extensions.Logging.OSLog" Version="1.4.0" />
     <PackageVersion Include="Uno.Extensions.Logging.WebAssembly.Console" Version="1.4.0" />
-    <PackageVersion Include="Uno.Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.3.0" />
+    <PackageVersion Include="Uno.Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.3.1-uno.2" />
     <PackageVersion Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="$(UnoVersion)" />
     <PackageVersion Include="Uno.Wasm.Bootstrap" Version="$(UnoWasmBootstrapVersion)" />
     <PackageVersion Include="Uno.Wasm.Bootstrap.DevServer" Version="$(UnoWasmBootstrapVersion)" />

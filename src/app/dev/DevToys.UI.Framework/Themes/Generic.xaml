@@ -6,6 +6,15 @@
 
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Light">
+            <!-- Override system generated accent colors -->
+            <Color x:Key="SystemAccentColor">#B890FF</Color>
+            <Color x:Key="SystemAccentColorLight1">#FFC19EFF</Color>
+            <Color x:Key="SystemAccentColorLight2">#FFCBABFF</Color>
+            <Color x:Key="SystemAccentColorLight3">#FFD4B9FF</Color>
+            <Color x:Key="SystemAccentColorDark1">#FFA37CE9</Color>
+            <Color x:Key="SystemAccentColorDark2">#FF8F69D3</Color>
+            <Color x:Key="SystemAccentColorDark3">#FF7A55BE</Color>
+
             <SolidColorBrush x:Key="TextEditorForeground" Color="Black"/>
 
             <!-- REVIEW: If Navigation View Content Grid Border Brush has transparency, it makes WebView being unclickable (can't get focus),
@@ -13,6 +22,15 @@
             <StaticResource x:Key="NavigationViewContentGridBorderBrush" ResourceKey="CardStrokeColorDefaultSolidBrush" />
         </ResourceDictionary>
         <ResourceDictionary x:Key="Dark">
+            <!-- Override system generated accent colors -->
+            <Color x:Key="SystemAccentColor">#853EC4</Color>
+            <Color x:Key="SystemAccentColorLight1">#FF9556CD</Color>
+            <Color x:Key="SystemAccentColorLight2">#FFA56ED6</Color>
+            <Color x:Key="SystemAccentColorLight3">#FFB586E0</Color>
+            <Color x:Key="SystemAccentColorDark1">#FF7432B3</Color>
+            <Color x:Key="SystemAccentColorDark2">#FF6326A1</Color>
+            <Color x:Key="SystemAccentColorDark3">#FF531B90</Color>
+
             <SolidColorBrush x:Key="TextEditorForeground" Color="#F0F0F0"/>
 
             <!-- REVIEW: If Navigation View Content Grid Border Brush has transparency, it makes WebView being unclickable (can't get focus),

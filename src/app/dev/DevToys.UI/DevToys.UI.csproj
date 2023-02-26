@@ -22,6 +22,7 @@
       </PropertyGroup>
       <ItemGroup>
         <PackageReference Include="Microsoft.Windows.Compatibility" />
+        <PackageReference Include="Uno.CommunityToolkit.WinUI.UI.Media" />
         <PackageReference Include="Uno.WinUI" />
         <PackageReference Include="Uno.WinUI.Lottie" />
         <PackageReference Include="Uno.WinUI.RemoteControl" Condition="'$(Configuration)'=='Debug'" />
@@ -36,6 +37,7 @@
       </PropertyGroup>
       <ItemGroup>
         <PackageReference Include="Microsoft.Windows.Compatibility" />
+        <PackageReference Include="Uno.CommunityToolkit.WinUI.UI.Media" />
         <PackageReference Include="Uno.WinUI" />
         <PackageReference Include="Uno.WinUI.Lottie" />
         <PackageReference Include="Uno.WinUI.RemoteControl" Condition="'$(Configuration)'=='Debug'" />
@@ -61,6 +63,7 @@
         <EnableDefaultPriItems>false</EnableDefaultPriItems>
       </PropertyGroup>
       <ItemGroup>
+        <PackageReference Include="CommunityToolkit.WinUI.UI.Media" />
         <PackageReference Include="Microsoft.WindowsAppSDK" />
         <PackageReference Include="Microsoft.Windows.SDK.BuildTools" />
         <PackageReference Include="Microsoft.Xaml.Behaviors.WinUI.Managed" />
